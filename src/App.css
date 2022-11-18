@@ -1,0 +1,17 @@
+.wrapper {
+  background: rgb(10, 222, 34);
+  color: rgb(15, 139, 197);
+  padding-top: 2rem;
+  min-height: 100vh;
+}
+
+.icon {
+  display: none;
+}
+
+.movie-card:hover .icon {
+  color: red;
+  zoom: 150%;
+  display: block;
+  cursor: pointer;
+}
